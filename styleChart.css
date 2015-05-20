@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body{
+	padding-top:50px;
+}
+.conteudoTotalChart{
+	height:250px;
+	margin:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	font-weight:bold;
+}
+.abraca_chart{
+	height:250px;
+	float:left;
+}
+.chartBar{
+	background-image:linear-gradient(rgba(102,102,102,0) 95%, #000 5%);
+	background-repeat:repeat-y;
+	background-position:40px 11px;
+}
+.stats{
+	height:100%;
+	width:40px;
+	float:left;
+	margin-right:30px;
+}
+.stats ul{
+	/*margin-top: 12px;*/
+}
+.stats ul li{
+	font-size:14px;
+	line-height:22px;
+	text-align:right;
+}
+.stats ul li:first-child{
+	text-align:center !important;
+}
+.columns{
+	float:right;
+	height:100%;
+}
+.col{
+	height:100%;
+	float:left;
+}
+
+.col_content{
+	width:100%;
+	text-align:center;
+	overflow:hidden;
+}
+.col_content .percent{
+	font-size: 11px;
+}
+.labelsContent{
+	height:100%;
+	line-height:100%;
+	border-top:1px solid #000;
+}
+.labelsContent ul,
+.labelsContent ul li{
+	height:100%;
+}
+.labelsContent ul li{
+	float:left;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	line-height:22px;
+}
+.legend_sections{
+	float:right;
+	width:110px;
+	font-size:11px;
+	padding-top: 10px;
+}
+.legend_sections ul li{
+	height:20px;
+	line-height:20px;
+	width:100%;
+}
+.legend_sections ul li .bulletColor{
+	width:15px;
+	height:15px;
+	border-radius:3px;
+	float:left;
+	margin-right:10px;
+}
+.legend_sections ul li .bullet{
+	width:6px;
+	height:6px;
+	border-radius:3px;
+	float:left;
+	margin-right:7px;
+	margin-top:7px;
+	background:#000;
+}
+.legend_sections ul.totais{
+	margin-bottom:20px;
+}
