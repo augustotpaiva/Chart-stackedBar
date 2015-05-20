@@ -3,7 +3,7 @@ Desenvolvimento de um gráfico stackedBar em css, html e javascript.
 
 * O gráfico ainda não está totalmente preparado para trabalhar de forma responsiva no eixo Y. Altura total é 250px.
 * Não necessita do jquery para funcionar.
-* É importante executar a função buildChart() ao fim da página, pois ela irá montar o gráfico somente após o elemento html já ter sido criado. Caso contrário retornará um erro.
+* É importante executar a função buildChart() ao fim da página, pois ela irá montar o gráfico somente após os elementos html já ter sido criado. Caso contrário retornará um erro.
 * A biblioteca JS pode ser carregada no header livremente.
 * O plugin contempla apenas gráficos no formato de barras empilhadas (stacked bar).
 * Foi projetado para trabalhar com porcentagens. Sendo assim você pode fornecer qualquer valor para o gráfico. O script fará os cálculos e trabalhará sempre com a porcentagem relativa à amostragem.
